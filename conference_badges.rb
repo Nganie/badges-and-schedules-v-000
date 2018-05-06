@@ -22,3 +22,9 @@ counter += 1
 end
 return batch_badge_creator
 end
+
+def printer(array)
+  batch_badge_creator(array).each do |x|
+    puts x
+  end
+end
